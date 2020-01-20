@@ -11,18 +11,14 @@
 
  .draggable {
      width: 150px;
-     height: 30px;
+     height: 3em;
      padding: 5px;
      border-radius: 5px;
      background: #585858;
-     text-align: center;
-     align-items: center;
-     line-height: 30px;
      border: 1px solid #f551f5;
      margin: 1em;
      display: block;
      position: absolute;
-
  }
 
  .draggable:hover {
@@ -30,3 +26,7 @@
 
  }
 
+ h1 {
+     text-align: center;
+     margin-top: 3em;
+ }

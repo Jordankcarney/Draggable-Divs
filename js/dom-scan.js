@@ -24,8 +24,8 @@ for(i = 0; i < element.length; i++) {
     currentElement.addEventListener('mousemove', function() {
         if(dragState == true) {
             console.log("Element is draggable!");
-            event.target.style.left = (event.x - event.target.offsetWidth / 2) + "px";
-            event.target.style.top = (event.y - event.target.offsetHeight / 1.5) + "px";
+            event.target.style.left = (event.x - event.target.offsetWidth * 0.6) + "px";
+            event.target.style.top = (event.y - event.target.offsetHeight * 0.7) + "px";
         }
     })
 };
